@@ -14,7 +14,10 @@ class SekolahController extends Controller
      */
     public function index()
     {
-        return view('sekolah');
+        return view('sekolah',[
+            'title' => 'Kelola Sekolah',
+            'active' => 'sekolah'
+        ]);
     }
 
     /**

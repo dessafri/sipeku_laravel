@@ -19,7 +19,9 @@ use App\Http\Controllers\PertanyaanController;
 */
 
 Route::get('/', function () {
-    return view('index', ['title'=>'Dashboard']);
+    return view('index', [
+        'title'=>'Dashboard', 'active' => 'home'
+    ]);
 });
 Route::get('/pertanyaan', [PertanyaanController::class, 'index']);
 Route::get('/indikator', [IndikatorController::class, 'index']);

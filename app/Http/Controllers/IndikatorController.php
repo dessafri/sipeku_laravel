@@ -14,7 +14,10 @@ class IndikatorController extends Controller
      */
     public function index()
     {
-        return view('indikator');
+        return view('indikator',[
+            'title' => 'Kelola Indikator',
+            'active' => 'indikator'
+        ]);
     }
 
     /**

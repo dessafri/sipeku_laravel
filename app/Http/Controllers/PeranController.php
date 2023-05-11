@@ -14,7 +14,10 @@ class PeranController extends Controller
      */
     public function index()
     {
-        return view('peran');
+        return view('peran',[
+            'title' => 'Kelola Peran',
+            'active' => 'peran'
+        ]);
     }
 
     /**

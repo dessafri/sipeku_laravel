@@ -14,7 +14,10 @@ class HasilController extends Controller
      */
     public function index()
     {
-        return view('hasil');
+        return view('hasil',[
+            'title' => 'Kelola hasil',
+            'active' => 'hasil'
+        ]);
     }
 
     /**

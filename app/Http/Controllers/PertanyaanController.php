@@ -13,7 +13,10 @@ class PertanyaanController extends Controller
      */
     public function index()
     {
-        return view('pertanyaan');
+        return view('pertanyaan',[
+        'title' => 'Kelola Pertanyaan',
+        'active' => 'pertanyaan'
+        ]);
     }
 
     /**
