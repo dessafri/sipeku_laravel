@@ -13,7 +13,7 @@
 # app\Http\Controllers\SekolahController.php
 # app\Models\SekolahModel.php
 
-# menambahkan sb admin dan menyesuaikan dengan settingan dari laravel, menambahkan resources ke dalam folder public kemudian di panggil di index
+# menambahkan sb admin dan menyesuaikan dengan settingan dari laravel, menambahkan resources ke dalam folder public kemudian di panggil di index. menambahkan data binding title,active di tiap controller dibawah untuk data dinamis title dan sidebar yang active
 
 # Membuat controller
 # - PertanyaanController
